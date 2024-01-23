@@ -78,7 +78,8 @@ input[type="button"]{
 
 
 @media (max-width: 760px) {
-    body{height: 100vh;}
+    body{height: calc(100vh - 87px);}
+
     form{
         width: 310px;
         margin: auto;
