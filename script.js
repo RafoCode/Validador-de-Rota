@@ -6,7 +6,7 @@ const paragrafo = document.querySelector("#texto");
 inputCep.addEventListener('keypress', () =>{
 //formatando input
     let inputlength = inputCep.value.length
-    if(inputlength === 5){
+    if(inputlength == 5){
         inputCep.value += '-'
     }
 })
@@ -16,7 +16,7 @@ submit.addEventListener('click', () =>{
 
     let cep = inputCep.value;
 
-    if (cep.length !== 9 ) {
+    if (cep.length < 8 ) {
         return;
     }
 
