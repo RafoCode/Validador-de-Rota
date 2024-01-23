@@ -10,6 +10,7 @@ body{
     background-image: url(images/img.jpg);
     background-size:cover;
     background-position: center;
+    height: 100vh;
 }
 
 h1{
@@ -73,4 +74,13 @@ input[type="button"]{
     align-items: center;
     flex-direction: column;
    
+} 
+
+
+@media (max-width: 760px) {
+    body{height: 100vh;}
+    form{
+        width: 310px;
+        margin: auto;
+    }
 }
