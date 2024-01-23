@@ -59,14 +59,12 @@ input[type="button"]{
     border-radius: 15px;
     text-align: center;
     font-size: 18px;
- 
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#texto{
-    padding: 10px;
-    
-}
+
 
 .container{
     display: flex;
